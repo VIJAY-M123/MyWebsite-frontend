@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+:root {
+  --background: #e0e0e0;
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple;
+  --hover-border:rgb(13, 15, 13);
+  --hover-bg:#aaa5a5;
+  --index-bg:#bdbdbd;
+  --tab-bg:#bdbdbd;
+  --border-color: #e0e0e0 #e0e0e0 #bdbdbd;
+  --textbox:#bdbdbd;
+  --scrollbar:#fff;
+  --social-card-bg:#bdbdbd;
+  --box-shadow:0px 0px 3px 3px #fff;
+ --background-image: #bdbdbd;
+}
+[data-theme='dark'] {
+  --background: #111c44;
+  --text-primary: white;
+  --text-secondary: grey;
+  --accent: darkred;
+  --hover-border:white;
+  --hover-bg:#2a3457;
+  --index-bg:#051139;
+  --tab-bg:#051139 ;
+  --border-color: #dee2e6 #dee2e6 #051139;
+  --textbox:#051139 ;
+  --scrollbar:#111c44;
+  --social-card-bg:#051139 ;
+  --box-shadow:0px 0px 3px 3px #fff;
+  --background-image:#051139 ;
+  ;
+}
+
+*{
+  margin:0;
+  padding:0;
+  text-decoration: none;
+}
+.containers{
+  display:flex;
+}
+.sidebar{
+  background:var(--background);
+  color:var(--text-primary);
+  height: 100vh;
+  width: 250px;
+  
+  overflow-x: hidden;
+  position: fixed;
+}
+.top{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+.bar{
+  display: flex;
+  font-size: 25px;
+  margin-left: 90px;
+}
+
+.footer{
+  display: flex;
+  position: fixed;
+  top: 95%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+ right: 10px;
+
+ 
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: var(--text-primary);
+  font-family: serif;
+}
+.form-switch .form-check-input{
+  height: 1.5em !important;
+  width: 4em !important;
+}
+.actives {
+    
+  background-color: #000000 !important;
+  color:red !important;
+}
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color:#807d7d ;
+}
+::-webkit-scrollbar-thumb{
+  background-color:var(--scrollbar);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+.nav-tabs .nav-link.active{
+  color:var(--text-primary) !important;
+  background-color: var(--tab-bg) !important;
+  border-color:var(--border-color) !important;
+  font-size: 15px;
+  font-family: serif;
+
+}
+.nav-tabs .nav-link{
+  background-color: #f5f3f3 !important;
+  color: #5e5a5a !important;
+  font-size: 15px;
+  font-family: serif;
+}
+.navs{
+  height: 0px !important;
+}
+.css-1s2u09g-control{
+  /* background-color: #3759B2 !important; */
+  /* box-shadow:inset 2px 2px 5px #ffffff, inset -3px -3px 7px #bbbec3; */
+  /* background-image: linear-gradient(to right, #21507B 0%, #88AFDD 100%) !important; */
+  background-color: var(--textbox) !important;
+  border: 0px !important;
+  color: white;
+  width: 200px !important;
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.css-1r4vtzz{
+  background-color:var(--index-bg) !important ;
+  color: white !important;
+}

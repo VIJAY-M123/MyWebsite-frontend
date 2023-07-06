@@ -1,0 +1,33 @@
+.MainNav{
+    background-color: #bdbdbd !important;
+    position: fixed !important;
+    
+}
+.heading{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+.home{
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 768px) {
+    .heading{
+        font-size: 20px;
+    }
+    .home{
+        padding-top: 25% !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .bar{
+        display: none;
+    }
+}
