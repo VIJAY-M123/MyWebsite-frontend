@@ -20,7 +20,7 @@ export default function Home() {
     const view = () => {
         //navigate("/templates")
 
-        const url = 'https://zippy-sherbet-332f3a.netlify.app/'; // Replace with your desired URL
+        const url = 'https://64ace07f12112936a52776d1--cozy-paletas-49cace.netlify.app/'; // Replace with your desired URL
         window.open(url, '_blank');
     }
 
@@ -45,7 +45,7 @@ export default function Home() {
                         <Card className=" cardpreview d-flex justify-content-end align-items-center" style={{
                             backgroundImage: `url(${dashboard})`,
                             backgroundRepeat: "no-repeat",
-                            backgroundSize: "cover", height: "200px",marginTop:"40px"
+                            backgroundSize: "cover", height: "200px",marginTop:"40px",borderRadius:'20px'
                         }}>
 
                             <button className="previewbtn" 

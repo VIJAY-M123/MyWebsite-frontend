@@ -52,8 +52,9 @@ export default function Login() {
         // setUsername(result.username);
 
 
-        if (result.username) {
+        if (result.username && result.token) {
           localStorage.setItem('username', result.username);
+          localStorage.setItem('Token', result.token)
           navigate("/main")
         }
         else if (result.error) {
